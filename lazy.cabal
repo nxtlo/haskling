@@ -18,7 +18,7 @@ extra-source-files:  CHANGELOG.md
 
 executable lazy
   main-is:             Main.hs
-  -- other-modules:
+  other-modules:       Kamakazi
   -- other-extensions:
   build-depends:       base >=4.14 && <4.15
   -- hs-source-dirs:
