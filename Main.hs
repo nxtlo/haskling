@@ -1,7 +1,7 @@
 module Main where
 
 import Control.Exception
-import qualified Data.Monoid
+import qualified Data.Monoid ((<>))
 import Kamakazi
 
 dub :: Int -> Int
@@ -57,8 +57,6 @@ main = do
       Right val -> 
           putStrLn $ "The answer was: " ++ show val
       _ -> pure ()
-
-    
     print
         . ctx $ "Fate"
     print
