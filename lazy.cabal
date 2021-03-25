@@ -23,3 +23,7 @@ executable lazy
   build-depends:       base >=4.14 && <4.15
   -- hs-source-dirs:
   default-language:    Haskell2010
+
+library:
+  default-extensions:
+    - GADTs

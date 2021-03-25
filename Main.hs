@@ -2,6 +2,7 @@ module Main where
 
 import Control.Exception
 import qualified Data.Monoid ((<>))
+import qualified Packets
 import Kamakazi
 
 dub :: Int -> Int
