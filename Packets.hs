@@ -1,12 +1,12 @@
 module Packets(
-    --Static,
-    --Void,
-    --Virtual,
-    --None,
-    perhaps',
-    bits,
-    Some,
-    (?)
+    --, Static
+    --, Void
+    --, Virtual
+    --, None
+    perhaps'
+    , bits
+    , Some
+    , (?)
     ) where
 
 data Some value = Empty
